@@ -1,0 +1,116 @@
+main{
+    margin: 0 auto;
+    width: 900px;
+    
+}
+.container{
+    
+    background-color: silver;
+    padding: 30px;
+
+}
+.containerone{
+    
+    background-color: silver;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+hr{
+ margin-top: 30px;
+}
+.top-name{
+    margin-top: 3px;
+}
+.top-names{
+    margin-top: 25px;
+}
+.name{
+    margin-left: 10px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.player{
+    display: flex;
+   
+    align-items: center;
+}
+.bolg img{
+    height: 100px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+}
+.thumbnail img{
+    height: 100px;
+    width: 150px;
+}
+.blog{
+    display: flex;
+}
+.img-details{
+    padding: 10px;
+}
+.thumbnailone{
+    display: flex;
+    margin-right: 10px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.unique-course img{
+    height: 110px;
+}
+
+@media only screen and (max-width:668px){
+    .players ,.top-blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 30px;
+        align-items: center;
+    }
+    .thumbnail img,.unique-course img{
+       width: 100%;
+       height: 300px;
+       padding-top: 20px;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-name{
+        text-align: center;
+    }
+    .top-names{
+        text-align: center;
+    }
+    .player{
+        
+       justify-content: center;
+        align-items: center;
+    }
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 30px;
+    }
+}
