@@ -81,7 +81,7 @@ hr{
     height: 110px;
 }
 
-@media only screen and (max-width:668px){
+@media only screen and (max-width:400px){
     .players ,.top-blogs{
         display: grid;
         grid-template-columns: repeat(1,1fr);
